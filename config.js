@@ -4,8 +4,8 @@
 require('dotenv').config()
 
 const config = {
-  port: process.env.PORT || 5000,
-  host: process.env.HOST || "http://localhost:5000",
+  port: process.env.PORT || 3000,
+  host: process.env.HOST || "http://localhost:3000",
   nodeEnv: process.env.NODE_ENV || "dev", //? dev, prod, test
   jwtSecret: process.env.JWT_SECRET,
   db: {
